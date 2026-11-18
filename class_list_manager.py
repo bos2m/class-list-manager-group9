@@ -9,6 +9,14 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def sort_names(names):
     return sorted(names)
 
+# Written by: Ranya (task 6)
+def to_upper(names):
+    upper_names = []                        # variable: a new empty list
+    for name in names:                      # loop: go through every name
+        upper_names.append(name.upper())    # add the name in capital letters
+    return upper_names
+
+
 
 
 def main():
@@ -17,5 +25,7 @@ def main():
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
     print("Sorted names:", sort_names(names))
+    print("Names in capital letters:", to_upper(names))
+
 
 main()
