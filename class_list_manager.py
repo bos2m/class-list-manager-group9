@@ -16,7 +16,12 @@ def to_upper(names):
         upper_names.append(name.upper())    # add the name in capital letters
     return upper_names
 
-
+# Written by: Shaden (task 2)
+def search_name(names, name):
+    for n in names:              # loop: check every name in the list
+        if n == name:            # if: found the name
+            return True
+    return False                 # the name was not found
 
 
 def main():
