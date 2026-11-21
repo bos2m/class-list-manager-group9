@@ -31,6 +31,7 @@ def main():
     # print("Number of names:", count_names(names))
     print("Sorted names:", sort_names(names))
     print("Names in capital letters:", to_upper(names))
+    print("Is Lama in the list?", search_name(names, "Lama"))
 
 
 main()
