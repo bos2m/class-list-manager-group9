@@ -23,9 +23,13 @@ def search_name(names, name):
             return True
     return False                 # the name was not found
 
-
+# Written by: Ibtesam (task 1)
+def count_names(names):
+    return len(names)
+    
 def main():
     print("Welcome to the Class List Manager!")
+    print("Number of names:", count_names(names))
     print("Class list:", names)
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
