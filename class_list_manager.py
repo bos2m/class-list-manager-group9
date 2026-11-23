@@ -22,16 +22,21 @@ def search_name(names, name):
         if n == name:            # if: found the name
             return True
     return False                 # the name was not found
-
-
+    
+# Written by: Ibtesam (task 1)
+def count_names(names)
+  return len(names)
+    
 def main():
     print("Welcome to the Class List Manager!")
+    print("Number of names:",count_names(names))
     print("Class list:", names)
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
     print("Sorted names:", sort_names(names))
     print("Names in capital letters:", to_upper(names))
     print("Is Lama in the list?", search_name(names, "Lama"))
+
 
 
 main()
